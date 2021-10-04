@@ -5,7 +5,7 @@ const Course = (props) => {
 
     const { subject, level, price, img } = props.course;
     return (
-        <div className="card h-75 g-2 col-3 align-items-center border border-secondary rounded">
+        <div className="card h-75 g-2 col-3 align-items-center border border-secondary">
             <img src={img} className="card-img-top w-75 m-5" alt="..." />
             <div className="card-body">
                 <h5 className="card-text">Subject: {subject}</h5>

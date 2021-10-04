@@ -12,19 +12,15 @@ const Courses = () => {
 
     return (
         <div className="container m-5 p-5">
+            {/* <h2>Courses: {courses.length}</h2> */}
             <div className="row">
-                <div className="col">
-                    {/* <h2>Courses: {courses.length}</h2> */}
-                    <div className="row">
-                        {
-                            courses.map(course => <Course
-                                key={course.id}
-                                course={course}
-                            >
-                            </Course>)
-                        }
-                    </div>
-                </div>
+                {
+                    courses.map(course => <Course
+                        key={course.id}
+                        course={course}
+                    >
+                    </Course>)
+                }
             </div>
         </div>
     );

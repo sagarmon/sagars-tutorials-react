@@ -13,19 +13,15 @@ const Home = () => {
     return (
         <div className="container m-5 p-5">
             <h2 className="mb-3">Our Top Rated Courses</h2>
+            {/* <h2>Courses: {courses.length}</h2> */}
             <div className="row">
-                <div className="col">
-                    {/* <h2>Courses: {courses.length}</h2> */}
-                    <div className="row">
-                        {
-                            courses.map(course => <Course
-                                key={course.id}
-                                course={course}
-                            >
-                            </Course>)
-                        }
-                    </div>
-                </div>
+                {
+                    courses.map(course => <Course
+                        key={course.id}
+                        course={course}
+                    >
+                    </Course>)
+                }
             </div>
         </div>
     );
