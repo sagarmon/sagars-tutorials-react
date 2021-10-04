@@ -1,18 +1,17 @@
 import React, { useEffect, useState } from 'react';
 import Course from '../Course/Course';
 
-const Home = () => {
+const Courses = () => {
     const [courses, setCourses] = useState([]);
 
     useEffect(() => {
-        fetch('./courseshome.json')
+        fetch('./coursesall.json')
             .then(res => res.json())
             .then(data => setCourses(data));
     }, [])
 
     return (
         <div className="container m-5 p-5">
-            <h2 className="mb-3">Our Top Rated Courses</h2>
             <div className="row">
                 <div className="col">
                     {/* <h2>Courses: {courses.length}</h2> */}
@@ -31,4 +30,4 @@ const Home = () => {
     );
 };
 
-export default Home;
+export default Courses;

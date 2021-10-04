@@ -1,0 +1,58 @@
+[
+  {
+    "id": "st001",
+    "subject": "Mathematics",
+    "level": "O Level",
+    "price": 3000,
+    "img": "https://imagizer.imageshack.com/img924/343/QXgtjV.jpg"
+  },
+  {
+    "id": "st002",
+    "subject": "Chemistry",
+    "level": "O Level",
+    "price": 2500,
+    "img": "https://imagizer.imageshack.com/img923/2038/6QawFy.jpg"
+  },
+  {
+    "id": "st003",
+    "subject": "Physics",
+    "level": "A Level",
+    "price": 4000,
+    "img": "https://imagizer.imageshack.com/img923/8662/LBLqmy.png"
+  },
+  {
+    "id": "st004",
+    "subject": "Add Mathematics",
+    "level": "O Level",
+    "price": 3000,
+    "img": "https://imagizer.imageshack.com/img922/7571/agHQNE.png"
+  },
+  {
+    "id": "st005",
+    "subject": "Biology",
+    "level": "O Level",
+    "price": 3000,
+    "img": "https://imagizer.imageshack.com/img924/343/QXgtjV.jpg"
+  },
+  {
+    "id": "st006",
+    "subject": "Statistics 1",
+    "level": "A Level",
+    "price": 3000,
+    "img": "https://imagizer.imageshack.com/img924/6795/bnHGr3.jpg"
+  },
+  {
+    "id": "st007",
+    "subject": "Chemistry",
+    "level": "A Level",
+    "price": 3000,
+    "img": "https://imagizer.imageshack.com/img923/9703/KluVXH.png"
+  },
+  {
+    "id": "st008",
+    "subject": "Physics",
+    "level": "O Level",
+    "price": 3000,
+    "img": "https://imagizer.imageshack.com/img922/3236/FThMdm.jpg"
+  }
+]
