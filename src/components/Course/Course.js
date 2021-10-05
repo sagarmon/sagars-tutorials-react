@@ -5,10 +5,10 @@ const Course = (props) => {
 
     const { subject, level, price, img } = props.course;
     return (
-        <div class="col-3">
-            <div class="card h-100 border border-2 rounded">
-                <img src={img} class="card-img-top" alt="..." />
-                <div class="card-body">
+        <div className="col-3">
+            <div className="card h-100 border border-2 rounded">
+                <img src={img} className="card-img-top" alt="..." />
+                <div className="card-body">
                     <h5 className="card-text">Subject: {subject}</h5>
                     <h5 className="card-text">Level: {level}</h5>
                     <h5 className="card-text">Price: {price}</h5>
