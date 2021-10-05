@@ -14,7 +14,7 @@ const Home = () => {
         <div className="container m-5 p-5">
             <h2 className="mb-3">Our Top Rated Courses</h2>
             {/* <h2>Courses: {courses.length}</h2> */}
-            <div className="row">
+            <div className="row g-4 mt-2">
                 {
                     courses.map(course => <Course
                         key={course.id}
